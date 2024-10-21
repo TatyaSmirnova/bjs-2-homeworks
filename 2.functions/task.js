@@ -1,16 +1,15 @@
 function getArrayParams(...arr) {
 // Код по первому варианту решения
-//  let sum = 0, max = arr[0], min = arr[0];
-//  for(let i = 0; i < arr.length; i++) {
-//    if(arr[i] > max) {
-//      max = arr[i];
-//    }
-//    if(arr[i] < min) {
-//      min = arr[i];
-//    }
-//    sum = sum + arr[i];
-//  }
-
+/*  let sum = 0, max = arr[0], min = arr[0];
+  for(let i = 0; i < arr.length; i++) {
+    if(arr[i] > max) {
+      max = arr[i];
+    }
+    if(arr[i] < min) {
+      min = arr[i];
+    }
+    sum = sum + arr[i];
+  }*/
 
 // Код по второму варианту решения
   let sum = arr.reduce( (accumulator, currentValue) => accumulator + currentValue, 0);
